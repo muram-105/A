@@ -18,5 +18,5 @@ jobs:
         uses: peter-evans/repository-dispatch@v2
         with:
 #           token: ${{ secrets.PAT_REPO_B }}  # Use the secret you created for Repository B
-          GITHUB_TOKEN: ${{ secrets.PAT_REPO_B }}
+          token: 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
           event-type: custom-event-type    # Replace with your custom event type
